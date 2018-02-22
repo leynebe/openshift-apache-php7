@@ -21,7 +21,7 @@ ADD scripts/run.sh /scripts/run.sh
 
 RUN mkdir /scripts/pre-exec.d && \
 mkdir /scripts/pre-init.d && \
-chmod -R 755 /scripts && chmod -R a+rw /etc/ssmtp && chmod a+rw /etc/passwd
+chmod -R 755 /scripts
 
 # Your app
 ADD app/index.php /app/index.php
